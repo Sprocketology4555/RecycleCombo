@@ -47,7 +47,7 @@ public class RobotMap {
         driveTrainRobotDrive.setMaxOutput(1.0);
         
 
-        pneumaticsDoubleSolenoid1 = new DoubleSolenoid(1, 4, 5);      
+        pneumaticsDoubleSolenoid1 = new DoubleSolenoid(0, 0, 1);      
         LiveWindow.addActuator("Pneumatics", "Double Solenoid 1", pneumaticsDoubleSolenoid1);
         
         compressionCompressor1 = new Compressor(0);
